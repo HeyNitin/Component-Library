@@ -1,10 +1,14 @@
 :root {
   --background-color: rgb(219, 53, 178);
-  --primary-color: grey;
-  --success: green;
+  --primary-color: rgb(128, 128, 128);
+  --success: rgb(0, 128, 0);
   --warning: rgb(209, 148, 35);
-  --error: red;
-  --online: green;
-  --offline: grey;
-  --dnd: red;
+  --error: rgb(255, 0, 0);
+  --online: rgb(0, 128, 0);
+  --offline: rgb(128, 128, 128);
+  --dnd: rgb(255, 0, 0);
+  --font-color: rgb(255, 255, 255);
+  --hover:rgb(240, 160, 173);
+  --box-shadow: .3rem .5rem #272525;
+  --badge-square: rgb(179, 67, 67);
 }

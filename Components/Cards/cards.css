@@ -1,0 +1,159 @@
+@import "../../Colors/colors.css";
+@import "../Badges/badges.css";
+
+body{
+    background-color: var(--primary-color);
+}
+
+.wrapper {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+
+    display: grid;
+    background-color: var(--font-color);
+    width: 18rem;
+    justify-items: center;
+    padding: 1rem 1rem 2rem 1rem;
+    border-radius: 1rem;
+    height: 25rem;
+
+}
+
+
+img {
+
+    height: 18rem;
+    width: 18rem;
+    border-radius: .3rem;
+}
+
+.header::first-line {
+
+    font-weight: bolder;
+}
+
+.header,
+.footer {
+
+    display: inline;
+
+
+}
+
+.footer {
+
+    align-items: center;
+    gap: .7rem;
+    
+}
+
+.footer > *:hover {
+    padding: .1rem;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.footer p:hover{
+    background-color: var(--hover);
+}
+
+/* card basis */
+
+
+.basic .footer, .text-only .footer { 
+
+    display: flex;
+
+
+}
+
+/* basis header */
+.basicHeader .card {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.basicHeader img {
+
+    order: 2;
+
+}
+
+
+.basicHeader .footer {
+
+
+    display: inline-flex;
+    order: 3;
+
+
+}
+
+/* onimage */
+
+.onimage img {
+
+    grid-area: 1/1/2/2;
+    height: 23.3rem;
+
+}
+
+
+.onimage .header {
+    grid-area: 1/1/2/2;
+    align-self: flex-end;
+    width: 17rem;
+    color: var(--font-color);
+
+}
+
+.onimage .footer {
+    grid-row: 2/3;
+    display: inline-flex;
+
+}
+
+/* Text Only */
+
+.text-only{
+    position: relative;
+    height: 10rem;
+}
+
+/* for Shadow class */
+
+.shadow{
+    box-shadow: var(--box-shadow);
+}
+
+/* for dismiss button */
+
+.dismiss{
+    all: unset;
+    position: absolute;
+    right: 1rem;
+    top: .5rem;  
+}
+
+.dismiss:hover{
+    background-color: var(--hover);
+    padding: .1rem;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+/* Badge */
+
+.badge-square{
+    position: absolute;
+    left: 1rem;
+    top: .3rem;
+    opacity: .8;
+    background-color: var(--badge-square);
+    width: 3rem;
+}
