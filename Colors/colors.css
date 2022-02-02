@@ -1,4 +1,10 @@
 :root {
   --background-color: rgb(219, 53, 178);
   --primary-color: grey;
+  --success: green;
+  --warning: rgb(209, 148, 35);
+  --error: red;
+  --online: green;
+  --offline: grey;
+  --dnd: red;
 }
