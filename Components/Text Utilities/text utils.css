@@ -1,0 +1,17 @@
+@import "../../Colors/colors.css";
+
+.heading {
+  font-size: 3rem;
+}
+
+.small-text {
+  font-size: 1.5rem;
+}
+
+.gray-area {
+  color: var(--grey-color);
+}
+
+.centered {
+  text-align: center;
+}
