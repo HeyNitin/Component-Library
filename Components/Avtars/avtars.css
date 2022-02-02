@@ -1,0 +1,38 @@
+:root{
+    font-size: 10px;
+}
+
+
+
+
+.avtar{
+
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+
+
+}
+
+.sm{
+    height: 4rem;
+    width: 4rem;
+}
+
+.md{
+
+    height: 5rem;
+    width: 5rem;
+}
+
+.lg{
+
+    height: 6rem;
+    width: 6rem;
+}
+
+.square{
+
+    border-radius: .5rem;
+}
