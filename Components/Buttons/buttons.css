@@ -1,32 +1,31 @@
 @import "../../Colors/colors.css";
 
 .button {
-    all: unset;
-    background-color: var(--background-color);
-    padding: .5rem;
-    align-items: center;
-    color: var(--white);
-    cursor: pointer;
-    margin: 1rem;
-    border-radius: .2rem;
-
+  all: unset;
+  background-color: var(--background-color);
+  padding: 0.5rem;
+  align-items: center;
+  color: var(--white);
+  cursor: pointer;
+  margin: 1rem;
+  border-radius: 0.2rem;
 }
 
 a:any-link {
-    text-decoration: none;
-    color: var(--white);
+  text-decoration: none;
+  color: var(--white);
 }
 
 .btn-icon {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .floating {
-    width: 2rem;
-    height: 2rem;
-    text-align: center;
-    border-radius: 2rem;
-    z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 2rem;
+  z-index: 1;
 }
