@@ -8,7 +8,8 @@
   --offline: rgb(128, 128, 128);
   --dnd: rgb(255, 0, 0);
   --font-color: rgb(255, 255, 255);
-  --hover:rgb(240, 160, 173);
-  --box-shadow: .3rem .5rem #272525;
+  --hover: rgb(240, 160, 173);
+  --box-shadow: 0.3rem 0.5rem #272525;
   --badge-square: rgb(179, 67, 67);
+  --grey-color: rgb(128, 128, 128);
 }

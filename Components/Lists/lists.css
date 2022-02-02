@@ -1,0 +1,24 @@
+@import "../../Colors/colors.css";
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 5rem;
+}
+
+.list > * {
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+
+.stacked {
+  gap: 0;
+}
+
+/* If someone wants list to change color alternatively*/
+
+.alternate {
+  background-color: var(--background-color);
+}
