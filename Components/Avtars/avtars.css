@@ -1,38 +1,38 @@
-:root{
-    font-size: 10px;
+:root {
+    font-size: .75rem;
 }
 
 
 
 
-.avtar{
+.avtar {
 
     height: 5rem;
     width: 5rem;
-    border-radius: 50%;
+    border-radius: 3rem;
     margin: 0 1rem;
 
 
 }
 
-.sm{
+.sm {
     height: 4rem;
     width: 4rem;
 }
 
-.md{
+.md {
 
     height: 5rem;
     width: 5rem;
 }
 
-.lg{
+.lg {
 
     height: 6rem;
     width: 6rem;
 }
 
-.square{
+.square {
 
     border-radius: .5rem;
 }
