@@ -1,0 +1,28 @@
+.button{
+    all: unset;
+    background-color: rgb(194, 21, 151);
+    padding: .5rem;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    margin: 1rem;
+    
+}
+
+a:any-link{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-icon{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.floating{
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 50% ;
+}
