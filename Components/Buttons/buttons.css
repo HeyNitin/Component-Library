@@ -1,28 +1,31 @@
-.button{
+@import "../../Colors/colors.css";
+
+.button {
     all: unset;
-    background-color: rgb(194, 21, 151);
+    background-color: var(--background-color);
     padding: .5rem;
     align-items: center;
-    color: white;
+    color: var(--white);
     cursor: pointer;
     margin: 1rem;
-    
+    border-radius: .2rem;
+
 }
 
-a:any-link{
+a:any-link {
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
-.btn-icon{
-    display:flex;
+.btn-icon {
+    display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.floating{
+.floating {
     width: 2rem;
     height: 2rem;
     text-align: center;
-    border-radius: 50% ;
+    border-radius: 50%;
 }
