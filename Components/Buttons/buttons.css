@@ -20,12 +20,12 @@ a:any-link {
 .btn-icon {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 1rem;
 }
 
 .floating {
     width: 2rem;
     height: 2rem;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 2rem;
 }
