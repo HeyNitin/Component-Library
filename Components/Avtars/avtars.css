@@ -1,11 +1,11 @@
-:root{
+:root {
     font-size: 10px;
 }
 
 
 
 
-.avtar{
+.avtar {
 
     height: 5rem;
     width: 5rem;
@@ -15,24 +15,24 @@
 
 }
 
-.sm{
+.sm {
     height: 4rem;
     width: 4rem;
 }
 
-.md{
+.md {
 
     height: 5rem;
     width: 5rem;
 }
 
-.lg{
+.lg {
 
     height: 6rem;
     width: 6rem;
 }
 
-.square{
+.square {
 
     border-radius: .5rem;
 }
