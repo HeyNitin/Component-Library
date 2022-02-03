@@ -1,6 +1,6 @@
 @import "../../Variables/variables.css";
 
-div > * {
+.input > * {
   display: block;
   padding: 0.5rem;
   width: 20rem;
