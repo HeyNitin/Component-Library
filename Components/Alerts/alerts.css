@@ -1,28 +1,28 @@
-@import "../../Colors/colors.css";
+@import "../../Variables/variables.css";
 
 button {
-    all: unset;
-    margin-left: auto;
+  all: unset;
+  margin-left: auto;
 }
 
 .alert {
-    display: flex;
-    padding: 1rem;
-    margin: 1rem;
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .primary {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .success {
-    background-color: var(--success);
+  background-color: var(--success);
 }
 
 .warning {
-    background-color: var(--warning);
+  background-color: var(--warning);
 }
 
 .error {
-    background-color: var(--error);
+  background-color: var(--error);
 }
