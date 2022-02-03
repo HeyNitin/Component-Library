@@ -1,0 +1,22 @@
+@import "../../Variables/variables.css";
+
+.grid-two,
+.grid-three {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.grid-two {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-three {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-two,
+.grid-three > * {
+  background-color: var(--background-color);
+  padding: 1rem;
+}
