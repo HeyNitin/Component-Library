@@ -1,0 +1,21 @@
+@import "../Buttons/buttons.css";
+@import "../../Variables/variables.css";
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.modal-content {
+  display: none;
+  background-color: var(--white);
+  position: fixed;
+  padding: 1rem;
+  top: 10rem;
+  z-index: 1;
+}
+
+#closes:hover {
+  cursor: pointer;
+}
