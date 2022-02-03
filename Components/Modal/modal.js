@@ -1,5 +1,5 @@
 var btn = document.getElementById("btn");
-var closes = document.getElementById("close");
+var closes = document.getElementById("closes");
 var modal = document.getElementById("modal-content");
 var wrapper = document.getElementById("wrapper");
 
