@@ -1,53 +1,48 @@
 @import "../Avtars/avtars.css";
-@import "../../Colors/colors.css";
-
+@import "../../Variables/variables.css";
 
 .badge {
-    display: inline-block;
-    position: relative;
-    margin: 3rem 1rem;
-
-
+  display: inline-block;
+  position: relative;
+  margin: 3rem 1rem;
 }
 
 .online,
 .offline,
 .dnd {
-    height: 1rem;
-    width: 1rem;
-    border-radius: 1rem;
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
 }
 
 .online {
-    background-color: var(--online);
+  background-color: var(--online);
 }
 
 .offline {
-    background-color: var(--offline);
+  background-color: var(--offline);
 }
 
 .dnd {
-    background-color: var(--dnd);
+  background-color: var(--dnd);
 }
 
-
 .notification {
-
-    position: absolute;
-    color: white;
-    background-color: var(--dnd);
-    border-radius: 1rem;
-    width: 1.2rem;
-    text-align: center;
-    right: -.5rem;
-    top: -.5rem;
+  position: absolute;
+  color: white;
+  background-color: var(--dnd);
+  border-radius: 1rem;
+  width: 1.2rem;
+  text-align: center;
+  right: -0.5rem;
+  top: -0.5rem;
 }
 
 .badge-square {
-    padding: .5rem;
-    display: inline-block;
-    border-radius: .5rem;
+  padding: 0.5rem;
+  display: inline-block;
+  border-radius: 0.5rem;
 }

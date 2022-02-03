@@ -12,4 +12,6 @@
   --box-shadow: 0.3rem 0.5rem #272525;
   --badge-square: rgb(179, 67, 67);
   --grey-color: rgb(128, 128, 128);
+  --heading-bottom: 1px solid black;
+  --background-nav: rgb(255, 255, 255);
 }
