@@ -1,0 +1,14 @@
+@import "../../Variables/variables.css";
+
+.fa:hover {
+  cursor: pointer;
+}
+
+.ratings {
+  padding: 1rem;
+  line-height: 1.5rem;
+}
+
+.fa-star {
+  color: var(--rating-color);
+}
