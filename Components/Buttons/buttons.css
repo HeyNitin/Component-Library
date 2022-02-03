@@ -29,3 +29,6 @@ a:any-link {
   border-radius: 2rem;
   z-index: 1;
 }
+.button:hover {
+  box-shadow: var(--btn-shadow);
+}

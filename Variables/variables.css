@@ -14,4 +14,7 @@
   --grey-color: rgb(128, 128, 128);
   --heading-bottom: 1px solid black;
   --background-nav: rgb(255, 255, 255);
+  --grey-light: rgb(223, 219, 219);
+  --white: rgb(255, 255, 255);
+  --btn-shadow: 0.1rem 0.1rem #272525;
 }
