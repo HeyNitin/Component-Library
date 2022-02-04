@@ -1,31 +1,25 @@
-.avtar {
-
-    height: 5rem;
-    width: 5rem;
-    border-radius: 3rem;
-    margin: 0 1rem;
-
-
+.avtar > * {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 3rem;
+  margin: 0 1rem;
 }
 
-.sm {
-    height: 4rem;
-    width: 4rem;
+.avtar .sm {
+  height: 4rem;
+  width: 4rem;
 }
 
-.md {
-
-    height: 5rem;
-    width: 5rem;
+.avtar .md {
+  height: 5rem;
+  width: 5rem;
 }
 
-.lg {
-
-    height: 6rem;
-    width: 6rem;
+.avtar .lg {
+  height: 6rem;
+  width: 6rem;
 }
 
-.square {
-
-    border-radius: .5rem;
+.avtar .square {
+  border-radius: 0.5rem;
 }

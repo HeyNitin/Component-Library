@@ -1,15 +1,14 @@
-@import "../../Variables/variables.css";
-
-.input > * {
+.input > *,
+.input-error > * {
   display: block;
   padding: 0.5rem;
   width: 20rem;
 }
 
-.error {
+.input-error {
   color: var(--error);
 }
 
-.error input {
+.input-error input {
   border: 1px solid var(--error);
 }

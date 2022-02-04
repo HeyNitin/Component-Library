@@ -1,17 +1,11 @@
-@import "../../Variables/variables.css";
-@import "../Badges/badges.css";
-
-body {
-  background-color: var(--primary-color);
-}
-
-.wrapper {
+.cards {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+  background-color: antiquewhite;
 }
 
-.card {
+.cards > * {
   display: grid;
   background-color: var(--font-color);
   width: 18rem;
@@ -21,100 +15,100 @@ body {
   height: 25rem;
 }
 
-img {
+.cards img {
   height: 18rem;
   width: 18rem;
   border-radius: 0.3rem;
 }
 
-.header::first-line {
+.cards .header::first-line {
   font-weight: bolder;
 }
 
-.header,
-.footer {
+.cards .header,
+.cards .footer {
   display: inline;
 }
 
-.footer {
+.cards .footer {
   align-items: center;
   gap: 0.7rem;
 }
 
-.footer > *:hover {
+.cards .footer > *:hover {
   padding: 0.1rem;
   border-radius: 0.2rem;
   cursor: pointer;
 }
 
-.footer p:hover {
+.cards .footer p:hover {
   background-color: var(--hover);
 }
 
 /* card basis */
 
-.basic .footer,
-.text-only .footer {
+.cards .basic .footer,
+.cards .text-only .footer {
   display: flex;
 }
 
 /* basis header */
-.basicHeader .card {
+.cards .basicHeader {
   display: flex;
   flex-wrap: wrap;
 }
 
-.basicHeader img {
+.cards .basicHeader img {
   order: 2;
 }
 
-.basicHeader .footer {
+.cards .basicHeader .footer {
   display: inline-flex;
   order: 3;
 }
 
 /* onimage */
 
-.onimage img {
+.cards .onimage img {
   grid-area: 1/1/2/2;
   height: 23.3rem;
 }
 
-.onimage .header {
+.cards .onimage .header {
   grid-area: 1/1/2/2;
   align-self: flex-end;
   width: 17rem;
   color: var(--font-color);
 }
 
-.onimage .footer {
+.cards .onimage .footer {
   grid-row: 2/3;
   display: inline-flex;
 }
 
 /* Text Only */
 
-.text-only {
+.cards .text-only {
   position: relative;
   height: 10rem;
 }
 
 /* for Shadow class */
 
-.shadow {
+.cards .shadow {
   box-shadow: var(--box-shadow);
 }
 
 /* for dismiss button */
 
-.dismiss {
+.cards .dismiss {
   all: unset;
   position: absolute;
   right: 1rem;
   top: 0.5rem;
 }
 
-.dismiss:hover {
+.cards .dismiss:hover {
   background-color: var(--hover);
   padding: 0.1rem;
   border-radius: 0.2rem;
@@ -123,7 +117,7 @@ img {
 
 /* Badge */
 
-.badge-square {
+.cards .badge-square {
   position: absolute;
   left: 1rem;
   top: 0.3rem;

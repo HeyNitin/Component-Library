@@ -1,22 +1,21 @@
-@import "../../Variables/variables.css";
-
 .button {
   all: unset;
+  cursor: pointer;
 }
 
-.primary,
+.btn-primary,
+.btn-link,
 .btn-icon,
-.floating {
+.btn-floating {
   background-color: var(--background-color);
   padding: 0.5rem;
   align-items: center;
   color: var(--white);
-  cursor: pointer;
   margin: 1rem;
   border-radius: 0.2rem;
 }
 
-a:any-link {
+.button a:any-link {
   text-decoration: none;
   color: var(--white);
 }
@@ -27,13 +26,10 @@ a:any-link {
   gap: 1rem;
 }
 
-.floating {
+.btn-floating {
   width: 2rem;
   height: 2rem;
   text-align: center;
   border-radius: 2rem;
   z-index: 1;
-}
-.button:hover {
-  box-shadow: var(--btn-shadow);
 }

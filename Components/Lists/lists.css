@@ -1,7 +1,5 @@
-@import "../../Variables/variables.css";
-@import "../Text-utilities/text-utils.css";
-
-.list {
+.list,
+.list-stacked {
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -9,18 +7,20 @@
   margin: 5rem;
 }
 
-li {
+.list li,
+.list-stacked li {
   background-color: var(--primary-color);
   padding: 1rem;
   transition: background-color 1s;
 }
 
-.stacked {
+.list-stacked {
   gap: 0;
 }
 
 /* If someone wants list to change color alternatively*/
 
-.alternate {
+.list .alternate,
+.list-stacked .alternate {
   background-color: var(--background-color);
 }

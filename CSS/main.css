@@ -1,0 +1,35 @@
+/* Fonts */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+/* Icons */
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/* Variables */
+
+@import "variables.css";
+
+/* Components */
+
+@import "../Components/Alerts/alerts.css";
+@import "../Components/Avtars/avtars.css";
+@import "../Components/Badges/badges.css";
+@import "../Components/Buttons/buttons.css";
+@import "../Components/Cards/cards.css";
+@import "../Components/Grids/grids.css";
+@import "../Components/images/images.css";
+@import "../Components/Inputs/inputs.css";
+@import "../Components/Lists/lists.css";
+@import "../Components/Modal/modal.css";
+@import "../Components/Navigation/navigation.css";
+@import "../Components/Ratings/ratings.css";
+@import "../Components/Snackbar/snackbar.css";
+@import "../Components/Text-utilities/text-utils.css";
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}

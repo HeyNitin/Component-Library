@@ -1,10 +1,3 @@
-@import "../Lists/lists.css";
-@import "../../Variables/variables.css";
-
-body {
-  margin: 0;
-}
-
 .nav {
   margin: 0;
   width: 15rem;
@@ -12,7 +5,7 @@ body {
   overflow-y: scroll;
 }
 
-li:hover {
+.nav li:hover {
   background-color: var(--background-nav);
 }
 .nav .active {

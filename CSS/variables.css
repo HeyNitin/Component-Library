@@ -1,4 +1,6 @@
 :root {
+  /* 1rem = 16px */
+  --default-font-size: 87.5%; /* 14px */
   --background-color: rgb(219, 53, 178);
   --primary-color: rgb(128, 128, 128);
   --success: rgb(0, 128, 0);
