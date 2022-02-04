@@ -1,6 +1,4 @@
-.snackbar,
-.snackbar-center,
-.snackbar-right {
+.snackbar {
   background-color: var(--black);
   color: var(--white);
   padding: 1rem;
@@ -9,6 +7,10 @@
   border-radius: 5px;
   bottom: 10px;
   position: fixed;
+}
+
+.snackbar-basic {
+  left: 10px;
 }
 
 .snackbar-center {
