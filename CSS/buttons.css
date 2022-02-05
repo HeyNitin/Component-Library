@@ -1,23 +1,23 @@
 .button {
   all: unset;
   cursor: pointer;
+  transition: background-color 1s;
 }
 
 .btn-primary,
 .btn-link,
 .btn-icon,
 .btn-floating {
-  background-color: var(--background-color);
+  background-color: var(--primary-color);
   padding: 0.5rem;
   align-items: center;
-  color: var(--white);
   margin: 1rem;
   border-radius: 0.2rem;
 }
 
 .button a:any-link {
   text-decoration: none;
-  color: var(--white);
+  color: var(--black);
 }
 
 .btn-icon {
@@ -32,4 +32,13 @@
   text-align: center;
   border-radius: 2rem;
   z-index: 1;
+}
+
+.btn-secondary {
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem;
+  align-items: center;
+  color: var(--white);
+  margin: 1rem;
+  border-radius: 0.2rem;
 }

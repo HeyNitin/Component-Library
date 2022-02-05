@@ -28,6 +28,7 @@
 @import "ratings.css";
 @import "snackbar.css";
 @import "text-utils.css";
+@import "header.css";
 
 body {
   font-family: "Roboto", sans-serif;

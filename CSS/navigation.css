@@ -1,5 +1,4 @@
 .nav {
-  margin: 0;
   width: 15rem;
   position: fixed;
   overflow-y: scroll;
@@ -22,4 +21,8 @@
 .nav .heading-md a,
 .nav .heading-sm a:hover {
   cursor: pointer;
+}
+
+.nav .heading-sm {
+  border-bottom: var(--heading-bottom);
 }

@@ -2,21 +2,18 @@
   font-size: 3rem;
   font-weight: bolder;
   padding: 1rem;
-  border-bottom: var(--heading-bottom);
 }
 
 .heading-md {
   font-size: 2.5rem;
   font-weight: bolder;
   padding: 1rem;
-  border-bottom: var(--heading-bottom);
 }
 
 .heading-sm {
   font-size: 2rem;
   font-weight: bolder;
   padding: 1rem;
-  border-bottom: var(--heading-bottom);
 }
 
 .heading-sub {
