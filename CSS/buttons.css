@@ -8,7 +8,7 @@
 .btn-link,
 .btn-icon,
 .btn-floating {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-light);
   padding: 0.5rem;
   align-items: center;
   margin: 1rem;

@@ -8,13 +8,18 @@
 
 .list li,
 .list-stacked li {
-  background-color: var(--primary-color);
   padding: 1rem;
-  transition: background-color 1s;
+  transition: background-color 0.5s;
 }
 
 .list-stacked {
   gap: 0;
+}
+
+.list li a:any-link,
+.list-stacked li a:any-link {
+  text-decoration: none;
+  color: var(--black);
 }
 
 /* If someone wants list to change color alternatively*/

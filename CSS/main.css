@@ -30,6 +30,10 @@
 @import "text-utils.css";
 @import "header.css";
 
+/* Documentation */
+
+@import "structure.css";
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;

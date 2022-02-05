@@ -13,7 +13,7 @@
 
 .container .button {
   color: var(--black);
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--primary-color-light);
 }
 
 .container .btn-primary:hover {
@@ -25,15 +25,14 @@
   background-color: var(--primary-color);
 }
 
-.container .btn-secondary {
-  padding: 0.5rem 0.5rem 0.5rem 0rem;
-  width: 6rem;
-}
-
 .container .btn-secondary a {
-  margin-left: 0.8rem;
+  margin-left: 0.3rem;
 }
 
 .container .heading-lg:hover {
   color: var(--primary-color);
+}
+
+.header {
+  border-bottom: none;
 }

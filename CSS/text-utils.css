@@ -46,3 +46,7 @@
   word-wrap: break-word;
   padding: 0.5rem;
 }
+
+.bold {
+  font-weight: bolder;
+}

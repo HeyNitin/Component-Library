@@ -2,28 +2,33 @@
   position: absolute;
   height: 4rem;
   top: 1rem;
-  left: 5rem;
+  left: 2rem;
 }
 
-.header {
+.header-topbar {
+  position: sticky;
+  top: 0rem;
   display: flex;
   gap: 2rem;
   padding: 2rem 4rem;
+
+  /*Yet to decide whether to keep or not*/
+  border-bottom: 1px ridge var(--primary-color);
 }
-.header .fa {
+.header-topbar .fa {
   text-decoration: none;
   color: black;
 }
 
-.header a:nth-child(2) {
+.header-topbar a:nth-child(2) {
   margin-left: auto;
 }
 
-.header .fa:hover {
+.header-topbar .fa:hover {
   color: var(--primary-color);
 }
 
-.header .fa {
+.header-topbar .fa {
   transition: color 0.5s;
 }
 
@@ -32,22 +37,27 @@
     position: absolute;
     height: 4rem;
     top: 1rem;
-    left: 2rem;
+    left: 1rem;
+  }
+
+  .header-topbar {
+    gap: 1rem;
+    padding: 2rem 2rem;
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .header .fa-github {
+@media only screen and (max-width: 370px) {
+  .header-topbar .fa-github {
     position: absolute;
     bottom: 1rem;
     left: 6rem;
   }
-  .header .fa-twitter {
+  .header-topbar .fa-twitter {
     position: absolute;
     bottom: 1rem;
     left: 10rem;
   }
-  .header .fa-linkedin {
+  .header-topbar .fa-linkedin {
     position: absolute;
     bottom: 1rem;
     left: 14rem;
@@ -55,7 +65,7 @@
 }
 
 @media only screen and (max-width: 320px) {
-  .header .fa {
+  .header-topbar .fa {
     display: none;
   }
 }

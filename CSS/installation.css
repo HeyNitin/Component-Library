@@ -1,0 +1,9 @@
+.data-container .heading-sm {
+  padding: 0 0 1rem 0;
+  border-bottom: 1px ridge var(--primary-color-light);
+  margin-bottom: 2rem;
+}
+
+.data-container .heading-sub {
+  padding: 0;
+}
