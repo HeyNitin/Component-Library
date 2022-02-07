@@ -9,13 +9,19 @@
   background-color: var(--white);
   position: fixed;
   padding: 1rem;
-  top: 10rem;
+  top: 20rem;
   z-index: 2;
-  top: 10rem;
   left: 50%;
   transform: translate(-50%, 0%);
+  box-sizing: border-box;
 }
 
 #closes:hover {
   cursor: pointer;
+}
+
+#closes {
+  font-size: x-large;
+  position: relative;
+  top: -1rem;
 }

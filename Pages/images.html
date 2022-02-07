@@ -5,24 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../Css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/82dc64715a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Images</title>
   </head>
 
   <body>
-    <div>
-      <img
-        class="img-responsive"
-        src="../../Assets/imgs/male profile.jpg"
-        alt="img"
-      />
-    </div>
+    <div class="grid-container">
+      <div class="header-topbar">
+        <a href="../index.html">
+          <img
+            class="header-logo"
+            src="https://i.ibb.co/1ZDDhkr/Lekhni.png"
+            alt="Lekhni"
+          />
+        </a>
+        <a href="https://github.com/heynitin/lekhni-ui" target="_blank">
+          <i class="fa fa-brands fa-github fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/07_Nitin_07" target="_blank">
+          <i class="fa fa-brands fa-twitter fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/heynitin/" target="_blank">
+          <i class="fa fa-brands fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+      <div class="nav list-stacked">
+        <li>
+          <a href="installation.html">Instalaltion</a>
+        </li>
+        <li>
+          <a href="alerts.html">Alerts</a>
+        </li>
+        <li>
+          <a href="avtars.html">Avtars</a>
+        </li>
+        <li>
+          <a href="badges.html">Badges</a>
+        </li>
+        <li>
+          <a href="buttons.html">Buttons</a>
+        </li>
+        <li>
+          <a href="cards.html">Cards</a>
+        </li>
+        <li>
+          <a href="grids.html">Grids</a>
+        </li>
+        <li class="active">
+          <a href="images.html">Images</a>
+        </li>
+        <li>
+          <a href="inputs.html">Inputs</a>
+        </li>
+        <li>
+          <a href="lists.html">Lists</a>
+        </li>
+        <li>
+          <a href="modal.html">Modal</a>
+        </li>
+        <li>
+          <a href="navigation.html">Navigation</a>
+        </li>
+        <li>
+          <a href="ratings.html">Ratings</a>
+        </li>
+        <li>
+          <a href="snackbar.html">Snack-bars</a>
+        </li>
+        <li>
+          <a href="text-utils.html">Text-Utilities</a>
+        </li>
+      </div>
+      <div class="data-container">
+        <div class="divider">
+          <div class="heading-sm">Round Images</div>
+          <p>
+            Round Images are the circular, with a default dimension of 160px X
+            160px. Use this with classname as <classname>img-round</classname> in img tag.
+          </p>
+          <div>
+            <img
+              class="img-round"
+              src="../../Assets/imgs/male profile.jpg"
+              alt="img"
+            />
+          </div>
+          <pre><code class="language-html">
+            &lt;div&gt;
+            &lt;img
+                class="img-round"
+                src="URL here"
+                alt="img"
+              /&gt;
+              &lt;/div&gt;
 
-    <div>
-      <img
-        class="img-round"
-        src="../../Assets/imgs/male profile.jpg"
-        alt="img"
-      />
+          </code></pre>
+        </div>
+        <div>
+          <div class="heading-sub">Responsive Images</div>
+        <p>
+          Full Width responsive Image is the one that expands to cover the container it is present in.
+          Resize the browser window, to see the responsive property. Use this with classname as <classname>img-responsive</classname> in img tag.
+        </p>
+        <br />
+
+        <div class="responsive-box">
+          <img
+            class="img-responsive"
+            src="https://images.unsplash.com/photo-1489359413553-6c264fb36c83?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+            alt="responsive-image"
+          />
+        </div>
+        <pre><code class="language-html">
+          &lt;div&gt;
+          &lt;img
+              class="img-responsive"
+              src="URL here"
+              alt="img"
+            /&gt;
+            &lt;/div&gt;
+
+        </code></pre>
+      </div>
     </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>

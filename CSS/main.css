@@ -14,25 +14,20 @@
 
 /* Components */
 
-@import "alerts.css";
-@import "avtars.css";
-@import "badges.css";
-@import "buttons.css";
-@import "cards.css";
-@import "grids.css";
-@import "images.css";
-@import "inputs.css";
-@import "lists.css";
-@import "modal.css";
-@import "navigation.css";
-@import "ratings.css";
-@import "snackbar.css";
-@import "text-utils.css";
-@import "header.css";
+@import "components.css";
 
 /* Documentation */
 
+/* Header */
+@import "header.css";
+
+/* Structure */
+
 @import "structure.css";
+
+/* Highlight.js */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/androidstudio.min.css");
 
 body {
   font-family: "Roboto", sans-serif;

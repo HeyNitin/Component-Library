@@ -5,33 +5,153 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../Css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/82dc64715a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Lists</title>
   </head>
   <body>
-    <div class="list">
-      <li>
-        <a>Home</a>
-      </li>
-      <li>
-        <a>Blogs</a>
-      </li>
-      <li>
-        <a>About us</a>
-      </li>
-    </div>
-    <div class="list-stacked">
-      <div class="heading-sm">
-        <a>Heading</a>
+    <div class="grid-container">
+      <div class="header-topbar">
+        <a href="../index.html">
+          <img
+            class="header-logo"
+            src="https://i.ibb.co/1ZDDhkr/Lekhni.png"
+            alt="Lekhni"
+          />
+        </a>
+        <a href="https://github.com/heynitin/lekhni-ui" target="_blank">
+          <i class="fa fa-brands fa-github fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/07_Nitin_07" target="_blank">
+          <i class="fa fa-brands fa-twitter fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/heynitin/" target="_blank">
+          <i class="fa fa-brands fa-linkedin fa-2x"></i>
+        </a>
       </div>
-      <li>
-        <a>Home</a>
-      </li>
-      <li class="alternate">
-        <a>Blogs</a>
-      </li>
-      <li>
-        <a>About us</a>
-      </li>
+      <div class="nav list-stacked">
+        <li>
+          <a href="installation.html">Instalaltion</a>
+        </li>
+        <li>
+          <a href="alerts.html">Alerts</a>
+        </li>
+        <li>
+          <a href="avtars.html">Avtars</a>
+        </li>
+        <li>
+          <a href="badges.html">Badges</a>
+        </li>
+        <li>
+          <a href="buttons.html">Buttons</a>
+        </li>
+        <li>
+          <a href="cards.html">Cards</a>
+        </li>
+        <li>
+          <a href="grids.html">Grids</a>
+        </li>
+        <li>
+          <a href="images.html">Images</a>
+        </li>
+        <li>
+          <a href="inputs.html">Inputs</a>
+        </li>
+        <li class="active">
+          <a href="lists.html">Lists</a>
+        </li>
+        <li>
+          <a href="modal.html">Modal</a>
+        </li>
+        <li>
+          <a href="navigation.html">Navigation</a>
+        </li>
+        <li>
+          <a href="ratings.html">Ratings</a>
+        </li>
+        <li>
+          <a href="snackbar.html">Snack-bars</a>
+        </li>
+        <li>
+          <a href="text-utils.html">Text-Utilities</a>
+        </li>
+      </div>
+      <div class="data-container">
+        <div class="divider">
+          <div class="heading-sm">Lists</div>
+          <p>
+            List for use for listing elements example contact list. Spaced list
+            or stacked list.
+          </p>
+        </div>
+        <div class="divider">
+          <div class="heading-sub">Spaced lists</div>
+          <p>
+            To use the spaced list, simply use classname
+            <classname>list</classname>
+          </p>
+          <div class="list">
+            <li class="alternate">
+              <a>Home</a>
+            </li>
+            <li style="background-color: var(--primary-color-light)">
+              <a>Blogs</a>
+            </li>
+            <li class="alternate">
+              <a>About us</a>
+            </li>
+          </div>
+          <pre><code class="language-html">
+            &lt;div class="list"&gt;
+            &lt;li&gt;
+            &lt;a&gt;Home&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+            &lt;a&gt;Blogs&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+            &lt;a&gt;About us&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;/div&gt;
+          </code></pre>
+        </div>
+        <div class="heading-sub">Stacked lists</div>
+        <p>
+          To use the stacked list, simply use classname
+          <classname>list-stacked</classname>. Also, you can use
+          <classname>alternate</classname> to give a list item different color
+        </p>
+        <div class="list-stacked">
+          <li class="alternate">
+            <a>Home</a>
+          </li>
+          <li style="background-color: var(--primary-color-light)">
+            <a>Blogs</a>
+          </li>
+          <li class="alternate">
+            <a>About us</a>
+          </li>
+        </div>
+        <pre><code class="language-html">
+          &lt;div class="list-stacked"&gt;
+          &lt;li&gt;
+          &lt;a&gt;Home&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class="alternate"&gt;
+          &lt;a&gt;Blogs&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+          &lt;a&gt;About us&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;/div&gt;
+        </code></pre>
+      </div>
     </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>

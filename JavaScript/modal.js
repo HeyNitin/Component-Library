@@ -13,9 +13,10 @@ closes.onclick = () => {
   wrapper.classList.remove("modal-wrapper");
 };
 
-window.onclick = (event) => {
-  if (event.target == wrapper) {
-    modal.style.display = "none";
-    wrapper.classList.remove("modal-wrapper");
-  }
-};
+// window.onclick = (event) => {
+//   console.log(event);
+//   if (event.target == wrapper) {
+//     modal.style.display = "none";
+//     wrapper.classList.remove("modal-wrapper");
+//   }
+// };

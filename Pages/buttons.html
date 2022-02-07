@@ -5,31 +5,193 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../Css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/82dc64715a.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Document</title>
   </head>
 
   <body>
-    <div>
-      <button class="button">
-        <a>Click Me</a>
-      </button>
-      <br />
-      <button class="button btn-primary">
-        <a>Click Me</a>
-      </button>
-      <br />
-      <button class="button btn-link">
-        <a href="#">Link</a>
-      </button>
-      <button class="button btn-icon">
-        <i class="material-icons">save</i>
-        <a>Click Me</a>
-      </button>
+    <div class="grid-container">
+      <div class="header-topbar">
+        <a href="../index.html">
+          <img
+            class="header-logo"
+            src="https://i.ibb.co/1ZDDhkr/Lekhni.png"
+            alt="Lekhni"
+          />
+        </a>
+        <a href="https://github.com/heynitin/lekhni-ui" target="_blank">
+          <i class="fa fa-brands fa-github fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/07_Nitin_07" target="_blank">
+          <i class="fa fa-brands fa-twitter fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/heynitin/" target="_blank">
+          <i class="fa fa-brands fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+      <div class="nav list-stacked">
+        <li>
+          <a href="installation.html">Instalaltion</a>
+        </li>
+        <li>
+          <a href="alerts.html">Alerts</a>
+        </li>
+        <li>
+          <a href="avtars.html">Avtars</a>
+        </li>
+        <li>
+          <a href="badges.html">Badges</a>
+        </li>
+        <li class="active">
+          <a href="buttons.html">Buttons</a>
+        </li>
+        <li>
+          <a href="cards.html">Cards</a>
+        </li>
+        <li>
+          <a href="grids.html">Grids</a>
+        </li>
+        <li>
+          <a href="images.html">Images</a>
+        </li>
+        <li>
+          <a href="inputs.html">Inputs</a>
+        </li>
+        <li>
+          <a href="lists.html">Lists</a>
+        </li>
+        <li>
+          <a href="modal.html">Modal</a>
+        </li>
+        <li>
+          <a href="navigation.html">Navigation</a>
+        </li>
+        <li>
+          <a href="ratings.html">Ratings</a>
+        </li>
+        <li>
+          <a href="snackbar.html">Snack-bars</a>
+        </li>
+        <li>
+          <a href="text-utils.html">Text-Utilities</a>
+        </li>
+      </div>
+      <div class="data-container">
+        <div class="divider">
+          <div class="heading-sm">Buttons</div>
+          <p>
+            Buttons are the soul of an interactive Web Application. Buttons
+            allow users to take actions, and make choices, with a single tap.
+            Use class
+            <classname>button</classname>
+            to use a simple button with no text decoration or choose from the
+            below styles to go with it.
+          </p>
+        </div>
 
-      <button class="button btn-floating">
-        <a class="material-icons">shop</a>
-      </button>
+        <div class="divider">
+          <div class="heading-sub">Primary Button</div>
+          <p>
+            Primary buttons are high-emphasis, distinguished by their use of
+            elevation and fill. They contain actions that are primary to your
+            app. Use class
+            <classname>btn-primary</classname>
+            to use this style.
+          </p>
+
+          <button
+            style="background-color: var(--background-color)"
+            class="button btn-primary"
+          >
+            <a>Primary Button</a>
+          </button>
+
+          <pre><code class="language-html">
+            &lt;buttonclass="button btn-primary"&gt;
+            &lt;a&gt;Click Me&lt;/a&gt;
+            &lt;/button&gt;
+
+          </code></pre>
+        </div>
+        <div class="divider">
+          <div class="heading-sub">Link Button</div>
+          <p>
+            link buttons have the same styles but they can contain a link on the
+            text as decoration is set to none. Use class
+            <classname>btn-link</classname>
+            to use this style.
+          </p>
+
+          <button
+            style="background-color: var(--background-color)"
+            class="button btn-link"
+          >
+            <a href="#">Link Button</a>
+          </button>
+
+          <pre><code class="language-html">
+            &lt;button class="button btn-link"&gt;
+            &lt;a href = "URL here"&gt;Click Me&lt;/a&gt;
+            &lt;/button&gt;
+
+          </code></pre>
+        </div>
+        <div class="divider">
+          <div class="heading-sub">Icon Button</div>
+          <p>
+            These support an icon inside the button. I've use google icons for
+            this you can choose any icon of your desire. Use class
+            <classname>btn-icon</classname>
+            to use this style.
+          </p>
+
+          <button
+            style="background-color: var(--background-color)"
+            class="button btn-icon"
+          >
+            <i class="material-icons">save</i>
+            <a>Icon Button</a>
+          </button>
+
+          <pre><code class="language-html">
+            &lt;button class="button btn-icon"&gt;
+            &lt;i class="material-icons"&gt;save&lt;/i&gt;
+            &lt;a&gt;Click Me&lt;/a&gt;
+            &lt;/button&gt;
+
+          </code></pre>
+        </div>
+
+        <div class="heading-sub">Floating Button</div>
+        <p>
+          Floating buttons are used for many purposes. They remain on top layer
+          of the screen. Use class
+          <classname>btn-floating</classname>
+          to use this style.
+        </p>
+
+        <button
+          style="background-color: var(--background-color)"
+          class="button btn-floating"
+        >
+          <a class="material-icons">shop</a>
+        </button>
+
+        <pre><code class="language-html">
+          &lt;button class="button btn-floating"&gt;
+          &lt;a class="material-icons"&gt;shop&lt;/a&gt;
+          &lt;/button&gt;
+
+        </code></pre>
+      </div>
     </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>

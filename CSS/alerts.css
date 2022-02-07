@@ -3,26 +3,39 @@
   font-size: xx-large;
 }
 
-.alert > * {
+.alert {
   display: flex;
-  padding: 1rem;
+  padding: 0.5rem;
   margin: 1rem;
   color: var(--black);
   align-items: center;
 }
 
-.alert .primary {
+.alt-primary {
   background-color: var(--primary-color);
 }
 
-.alert .success {
+.alt-success {
   background-color: var(--success);
 }
 
-.alert .warning {
+.alt-warning {
   background-color: var(--warning);
 }
 
-.alert .error {
+.alt-error {
   background-color: var(--error);
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: auto;
+  max-width: 43rem;
+  padding: 3rem;
+}
+
+code {
+  padding: 0rem 0.25rem;
+  border-radius: 1rem;
 }

@@ -5,16 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../CSS/main.css" />
+    <script
+      src="https://kit.fontawesome.com/82dc64715a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Text Utilities</title>
   </head>
   <body>
-    <div class="heading-lg">This is my first heading</div>
-    <div class="heading-md">This is my second heading</div>
-    <div class="heading-sm">This is my third heading</div>
-    <div class="heading-sub">This is sub heading</div>
-    <div class="text-sm">This is usual text size text</div>
-    <div class="text-gray">This text will be gray</div>
-    <div class="text-centered">This text would be centered</div>
-    <div class="text-capitalized">This text would be capitalized</div>
+    <div class="grid-container">
+      <div class="header-topbar">
+        <a href="../index.html">
+          <img
+            class="header-logo"
+            src="https://i.ibb.co/1ZDDhkr/Lekhni.png"
+            alt="Lekhni"
+          />
+        </a>
+        <a href="https://github.com/heynitin/lekhni-ui" target="_blank">
+          <i class="fa fa-brands fa-github fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/07_Nitin_07" target="_blank">
+          <i class="fa fa-brands fa-twitter fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/heynitin/" target="_blank">
+          <i class="fa fa-brands fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+      <div class="nav list-stacked">
+        <li>
+          <a href="installation.html">Instalaltion</a>
+        </li>
+        <li>
+          <a href="alerts.html">Alerts</a>
+        </li>
+        <li>
+          <a href="avtars.html">Avtars</a>
+        </li>
+        <li>
+          <a href="badges.html">Badges</a>
+        </li>
+        <li>
+          <a href="buttons.html">Buttons</a>
+        </li>
+        <li>
+          <a href="cards.html">Cards</a>
+        </li>
+        <li>
+          <a href="grids.html">Grids</a>
+        </li>
+        <li>
+          <a href="images.html">Images</a>
+        </li>
+        <li>
+          <a href="inputs.html">Inputs</a>
+        </li>
+        <li>
+          <a href="lists.html">Lists</a>
+        </li>
+        <li>
+          <a href="modal.html">Modal</a>
+        </li>
+        <li>
+          <a href="navigation.html">Navigation</a>
+        </li>
+        <li>
+          <a href="ratings.html">Ratings</a>
+        </li>
+        <li>
+          <a href="snackbar.html">Snack-bars</a>
+        </li>
+        <li class="active">
+          <a href="text-utils.html">Text-Utilities</a>
+        </li>
+      </div>
+      <div class="data-container">
+        <div class="divider">
+          <div class="heading-sm">Text-Utilities</div>
+          <p>
+            Lekhni supports a variety of text styles and all of them are
+            available to reuse.
+          </p>
+        </div>
+
+        <div class="divider">
+          <div class="heading-sub">Heading</div>
+          <p>
+            We've four types of headings. These can be imported wish classnames
+            <classname
+              >heading-lg. heading-md, heading-sm and heading-sub.</classname
+            >
+          </p>
+          <div class="heading-lg">This is my first heading</div>
+          <div class="heading-md">This is my second heading</div>
+          <div class="heading-sm">This is my third heading</div>
+          <div class="heading-sub">This is sub heading</div>
+          <pre><code class="language-html">
+            &lt;div class="heading-lg"&gt;This is my first heading&lt;/div&gt;
+            &lt;div class="heading-md"&gt;This is my second heading&lt;/div&gt;
+            &lt;div class="heading-sm"&gt;This is my third heading&lt;/div&gt;
+            &lt;div class="heading-sub"&gt;This is sub heading&lt;/div&gt;
+          </code></pre>
+        </div>
+        <div class="heading-sub">Text</div>
+        <p>
+          We've a variety of texts as shown below. They can be imported with
+          <classname
+            >text-sm, text-grey, text-centered and text-capitalized</classname
+          >
+        </p>
+        <div class="text-sm">This is usual text size text</div>
+        <div class="text-grey">This text will be gray</div>
+        <div class="text-centered">This text would be centered</div>
+        <div class="text-capitalized">This text would be capitalized</div>
+        <pre><code class="language-html">
+          &lt;div class="text-sm"&gt;This is usual text size text&lt;/div&gt;
+          &lt;div class="text-grey"&gt;This text will be gray&lt;/div&gt;
+          &lt;div class="text-centered"&gt;This text would be centered&lt;/div&gt;
+          &lt;div class="text-capitalized"&gt;This text would be capitalized&lt;/div&gt;
+        </code></pre>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>

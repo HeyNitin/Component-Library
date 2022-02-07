@@ -1,52 +1,51 @@
 .heading-lg {
   font-size: 3rem;
   font-weight: bolder;
-  padding: 1rem;
 }
 
 .heading-md {
   font-size: 2.5rem;
   font-weight: bolder;
-  padding: 1rem;
 }
 
 .heading-sm {
   font-size: 2rem;
   font-weight: bolder;
-  padding: 1rem;
 }
 
 .heading-sub {
   font-size: 1.5rem;
   word-wrap: break-word;
-  padding: 0.5rem;
+
   font-weight: bold;
 }
 
 .text-sm {
   font-size: 0.9rem;
   word-wrap: break-word;
-  padding: 0.5rem;
 }
 
-.text-gray {
+.text-grey {
   color: var(--grey-color);
   word-wrap: break-word;
-  padding: 0.5rem;
 }
 
 .text-centered {
   text-align: center;
   word-wrap: break-word;
-  padding: 0.5rem;
 }
 
 .text-capitalized {
   text-transform: capitalize;
   word-wrap: break-word;
-  padding: 0.5rem;
 }
 
 .bold {
   font-weight: bolder;
+}
+
+.divider {
+  border-bottom: 1px ridge var(--primary-color-light);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
 }
