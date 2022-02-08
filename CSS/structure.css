@@ -8,15 +8,16 @@
 }
 
 .grid-container .nav {
-  height: 84vh;
-  position: sticky;
+  /* height: ; */
+  position: fixed;
+  grid-area: 2/1/3/2;
   top: 6.05rem;
   width: 15rem;
 }
 
 .grid-container .data-container {
+  /* position: fixed; */
+  top: 6.05rem;
   padding: 2rem;
   grid-area: 2/2/3/3;
-  overflow-y: scroll;
-  height: 73vh;
 }

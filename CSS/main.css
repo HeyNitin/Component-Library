@@ -12,18 +12,18 @@
 
 @import "variables.css";
 
-/* Components */
-
-@import "components.css";
-
-/* Documentation */
-
 /* Header */
 @import "header.css";
 
 /* Structure */
 
 @import "structure.css";
+
+/* Components */
+
+@import "components.css";
+
+/* Documentation */
 
 /* Highlight.js */
 

@@ -11,6 +11,8 @@
   display: flex;
   gap: 2rem;
   padding: 2rem 4rem;
+  z-index: 1;
+  background-color: var(--white);
 
   /*Yet to decide whether to keep or not*/
   border-bottom: 1px ridge var(--primary-color);
