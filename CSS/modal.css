@@ -10,7 +10,7 @@
 }
 
 .modal-content {
-  display: flex;
+  display: none;
   background-color: var(--white);
   position: fixed;
   padding: 1rem;

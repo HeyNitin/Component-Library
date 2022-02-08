@@ -13,6 +13,8 @@
   padding: 2rem 4rem;
   z-index: 1;
   background-color: var(--white);
+  min-height: 6.05rem;
+  box-sizing: border-box;
 
   /*Yet to decide whether to keep or not*/
   border-bottom: 1px ridge var(--primary-color);
@@ -34,12 +36,12 @@
   transition: color 0.5s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .header-logo {
     position: absolute;
     height: 4rem;
     top: 1rem;
-    left: 1rem;
+    left: 4rem;
   }
 
   .header-topbar {
@@ -48,25 +50,7 @@
   }
 }
 
-@media only screen and (max-width: 370px) {
-  .header-topbar .fa-github {
-    position: absolute;
-    bottom: 1rem;
-    left: 6rem;
-  }
-  .header-topbar .fa-twitter {
-    position: absolute;
-    bottom: 1rem;
-    left: 10rem;
-  }
-  .header-topbar .fa-linkedin {
-    position: absolute;
-    bottom: 1rem;
-    left: 14rem;
-  }
-}
-
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
   .header-topbar .fa {
     display: none;
   }

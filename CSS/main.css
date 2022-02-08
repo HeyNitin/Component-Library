@@ -15,13 +15,13 @@
 /* Header */
 @import "header.css";
 
-/* Structure */
-
-@import "structure.css";
-
 /* Components */
 
 @import "components.css";
+
+/* Structure */
+
+@import "structure.css";
 
 /* Documentation */
 
