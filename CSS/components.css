@@ -12,3 +12,7 @@
 @import "ratings.css";
 @import "snackbar.css";
 @import "text-utils.css";
+
+/* Variables */
+
+@import "variables.css";
