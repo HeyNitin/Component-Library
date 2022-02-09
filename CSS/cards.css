@@ -42,7 +42,9 @@
 /* card basis */
 
 .card-basic .footer,
-.card-text-only .footer {
+.card-text-only .footer,
+.card-horizental,
+.footer {
   display: flex;
 }
 
@@ -118,4 +120,31 @@
   opacity: 0.8;
   background-color: var(--white);
   width: 3rem;
+}
+
+/* Horizental */
+.card-horizental {
+  grid-template-columns: 1fr 1fr;
+  width: 40rem;
+  gap: 2rem;
+}
+
+.card-horizental img {
+  align-self: center;
+  height: 20rem;
+}
+
+.card-horizental .header {
+  font-weight: bolder;
+  align-self: top;
+}
+
+.card-horizental .content {
+  display: grid;
+  align-self: center;
+  height: 20rem;
+  padding: 0;
+}
+.card-horizental .content .footer {
+  align-self: end;
 }
