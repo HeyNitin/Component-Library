@@ -10,12 +10,11 @@
   top: 0rem;
   display: flex;
   gap: 2rem;
-  padding: 2rem 4rem;
+  padding: 2rem 2rem;
   z-index: 1;
   background-color: var(--white);
   min-height: 6.05rem;
   box-sizing: border-box;
-
   /*Yet to decide whether to keep or not*/
   border-bottom: 1px ridge var(--primary-color);
 }
