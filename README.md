@@ -8,7 +8,7 @@ Lekhni is an easy to use, customizable CSS Framework, helping people to create t
 - Vanilla CSS
 - JavaScript
 
-## Components Defined in Sparrow - 
+## Components Defined in Lekhni - 
 - Avatar
 - Alert
 - Badge
