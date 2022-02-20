@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 40rem;
+  justify-content: center;
+  align-self: center;
+  margin: 4rem auto;
+}
+
+.container .text-sm {
+  font-size: 1.5rem;
+}
+
+.container .button {
+  color: var(--black);
+  border: 1px solid var(--primary-color-light);
+}
+
+.container .btn-primary:hover {
+  background-color: var(--white);
+  border: 1px solid var(--primary-color);
+}
+
+.container .btn-outline:hover {
+  background-color: var(--primary-color-light);
+}
+
+.container .btn-outline a {
+  margin-left: 0.3rem;
+}
+
+.container .heading-lg:hover {
+  color: var(--primary-color);
+}
+
+.header {
+  border-bottom: none;
+}
+
+.container .btn-primary {
+  margin: 1rem;
+}

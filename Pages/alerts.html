@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/82dc64715a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Alerts</title>
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <div class="header-topbar">
+        <button class="button nav-button" id="open-nav">
+          <i class="fa fa-thin fa-bars fa-2x"></i>
+        </button>
+        <a href="../index.html">
+          <img
+            class="header-logo"
+            src="https://i.ibb.co/1ZDDhkr/Lekhni.png"
+            alt="Lekhni"
+          />
+        </a>
+        <a href="https://github.com/heynitin/lekhni-ui" target="_blank">
+          <i class="fa fa-brands fa-github fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/07_Nitin_07" target="_blank">
+          <i class="fa fa-brands fa-twitter fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/heynitin/" target="_blank">
+          <i class="fa fa-brands fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+      <div id="nav" class="nav list-stacked">
+        <li>
+          <a href="installation.html">Instalaltion</a>
+        </li>
+        <li class="active">
+          <a href="alerts.html">Alerts</a>
+        </li>
+        <li>
+          <a href="avtars.html">Avtars</a>
+        </li>
+        <li>
+          <a href="badges.html">Badges</a>
+        </li>
+        <li>
+          <a href="buttons.html">Buttons</a>
+        </li>
+        <li>
+          <a href="cards.html">Cards</a>
+        </li>
+        <li>
+          <a href="grids.html">Grids</a>
+        </li>
+
+        <li>
+          <a href="images.html">Images</a>
+        </li>
+        <li>
+          <a href="inputs.html">Inputs</a>
+        </li>
+        <li>
+          <a href="lists.html">Lists</a>
+        </li>
+        <li>
+          <a href="modal.html">Modal</a>
+        </li>
+        <li>
+          <a href="navigation.html">Navigation</a>
+        </li>
+        <li>
+          <a href="ratings.html">Ratings</a>
+        </li>
+        <li>
+          <a href="snackbar.html">Snack-bars</a>
+        </li>
+        <li>
+          <a href="text-utils.html">Text-Utilities</a>
+        </li>
+      </div>
+      <div class="data-container">
+        <div class="divider">
+          <div class="heading-sm">Alerts</div>
+          <p>
+            An alert displays a short, important message in a way that attracts
+            the user's attention without interrupting the user's task.
+          </p>
+        </div>
+        <p>
+          Alerts can be created using alert class, followed by the variant name,
+          ie, use
+          <classname>alert alt-primary</classname>
+          for primary alert.
+        </p>
+
+        <button
+          style="display: flex; margin-left: auto"
+          id="reset"
+          class="button btn-primary"
+        >
+          Reset
+        </button>
+
+        <div class="alert alt-primary jsalert">
+          <a>Primary! This is a primary alert</a>
+          <button class="button jsbtn">&times</button>
+        </div>
+        <div class="alert alt-success jsalert">
+          <a>Success! This is a primary alert</a>
+          <button class="button jsbtn">&times</button>
+        </div>
+        <div class="alert alt-warning jsalert">
+          <a>Warning! This is a primary alert</a>
+          <button class="button jsbtn">&times</button>
+        </div>
+        <div class="alert alt-error jsalert">
+          <a>Error! This is a primary alert</a>
+          <button class="button jsbtn">&times</button>
+        </div>
+
+        <pre><code class="language-html">
+          &lt;div class="alert alt-primary jsalert"&gt;
+          &lt;a&gt;Primary! This is a primary alert&lt;/a&gt;
+          &lt;button&gt; class="button jsbtn">&times&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div class="alert alt-success jsalert"&gt;
+          &lt;a&gt;Success! This is a primary alert&lt;/a&gt;
+          &lt;button&gt; class="button jsbtn">&times&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div class="alert alt-warning jsalert"&gt;
+          &lt;a&gt;Warning! This is a primary alert&lt;/a&gt;
+          &lt;button&gt; class="button jsbtn">&times&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div class="alert alt-error jsalert"&gt;
+          &lt;a&gt;Error! This is a primary alert&lt;/a&gt;
+          &lt;button&gt; class="button jsbtn">&times&lt;/button&gt;
+          &lt;/div&gt;
+      </code></pre>
+        <pre><code class="javascript">
+        const btn = document.getElementsByClassName("jsbtn");
+        const alert = document.getElementsByClassName("jsalert");
+        const reset = document.getElementById("reset");
+
+        for (let i = 0; i < btn.length; i++) {
+        btn[i].onclick = () => (alert[i].style.display = "none");
+        }
+
+        reset.onclick = () => {
+          for (let i = 0; i < btn.length; i++) {
+            alert[i].style.display = "flex";
+          }
+        };
+
+      </code></pre>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+    <script src="../JavaScript/alerts.js"></script>
+    <script src="../JavaScript/navbar.js"></script>
+  </body>
+</html>

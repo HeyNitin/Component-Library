@@ -1,0 +1,41 @@
+.alert .button {
+  margin-left: auto;
+  font-size: xx-large;
+}
+
+.alert {
+  display: flex;
+  padding: 0.5rem;
+  margin: 1rem;
+  color: var(--black);
+  align-items: center;
+}
+
+.alt-primary {
+  background-color: var(--primary-color);
+}
+
+.alt-success {
+  background-color: var(--success);
+}
+
+.alt-warning {
+  background-color: var(--warning);
+}
+
+.alt-error {
+  background-color: var(--error);
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: auto;
+  max-width: 43rem;
+  padding: 3rem;
+}
+
+code {
+  padding: 0rem 0.25rem;
+  border-radius: 1rem;
+}

@@ -2,7 +2,10 @@
   /* 1rem = 16px */
   --default-font-size: 87.5%; /* 14px */
   --background-color: rgb(219, 53, 178);
+  --background-color-light: rgb(219, 132, 190);
   --primary-color: rgb(128, 128, 128);
+  --primary-color-light: rgb(185, 179, 179);
+  --secondary-color: rgb(51, 51, 238);
   --success: rgb(0, 128, 0);
   --warning: rgb(209, 148, 35);
   --error: rgb(255, 0, 0);
@@ -15,10 +18,16 @@
   --badge-square: rgb(179, 67, 67);
   --grey-color: rgb(128, 128, 128);
   --heading-bottom: 1px solid black;
-  --background-nav: rgb(255, 255, 255);
+  --background-nav: rgb(206, 198, 198);
   --grey-light: rgb(223, 219, 219);
   --white: rgb(255, 255, 255);
   --black: rgb(0, 0, 0);
   --btn-shadow: 0.1rem 0.1rem #272525;
   --rating-color: rgb(255, 215, 0);
+}
+
+classname {
+  background-color: var(--primary-color-light);
+  padding: 1px 3px;
+  border-radius: 5px;
 }

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/82dc64715a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Badges</title>
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <div class="header-topbar">
+        <button class="button nav-button" id="open-nav">
+          <i class="fa fa-thin fa-bars fa-2x"></i>
+        </button>
+        <a href="../index.html">
+          <img
+            class="header-logo"
+            src="https://i.ibb.co/1ZDDhkr/Lekhni.png"
+            alt="Lekhni"
+          />
+        </a>
+        <a href="https://github.com/heynitin/lekhni-ui" target="_blank">
+          <i class="fa fa-brands fa-github fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/07_Nitin_07" target="_blank">
+          <i class="fa fa-brands fa-twitter fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/heynitin/" target="_blank">
+          <i class="fa fa-brands fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+      <div id="nav" class="nav list-stacked">
+        <li>
+          <a href="installation.html">Instalaltion</a>
+        </li>
+        <li>
+          <a href="alerts.html">Alerts</a>
+        </li>
+        <li>
+          <a href="avtars.html">Avtars</a>
+        </li>
+        <li class="active">
+          <a href="badges.html">Badges</a>
+        </li>
+        <li>
+          <a href="buttons.html">Buttons</a>
+        </li>
+        <li>
+          <a href="cards.html">Cards</a>
+        </li>
+        <li>
+          <a href="grids.html">Grids</a>
+        </li>
+        <li>
+          <a href="images.html">Images</a>
+        </li>
+        <li>
+          <a href="inputs.html">Inputs</a>
+        </li>
+        <li>
+          <a href="lists.html">Lists</a>
+        </li>
+        <li>
+          <a href="modal.html">Modal</a>
+        </li>
+        <li>
+          <a href="navigation.html">Navigation</a>
+        </li>
+        <li>
+          <a href="ratings.html">Ratings</a>
+        </li>
+        <li>
+          <a href="snackbar.html">Snack-bars</a>
+        </li>
+        <li>
+          <a href="text-utils.html">Text-Utilities</a>
+        </li>
+      </div>
+      <div class="data-container">
+        <div class="divider">
+          <div class="heading-sm">Badges</div>
+          <p>
+            Badges are small circles, positioned either at top-right or
+            bottom-right of the parent component. Badge can be used to display
+            numbers, online / offline status, depending on where they are used.
+          </p>
+        </div>
+        <div class="divider">
+          <div class="heading-sub">Profile Badges</div>
+          <p>
+            Profile Badge is used to show the current status of a user. It can
+            be used with 3 variants : online | offline | dnd Use class
+            <classname>badge</classname>
+            on an avtar to have a badge at bottom right corner.
+          </p>
+          <div class="text-centered">
+            <div class="badge avtar">
+              <img
+                class="md"
+                src="../../Assets/imgs/male profile.jpg"
+                alt="img"
+              />
+              <div class="online"></div>
+            </div>
+
+            <div class="badge avtar">
+              <img
+                class="md"
+                src="../../Assets/imgs/male profile.jpg"
+                alt="img"
+              />
+              <div class="offline"></div>
+            </div>
+
+            <div class="badge avtar">
+              <img
+                class="md"
+                src="../../Assets/imgs/male profile.jpg"
+                alt="img"
+              />
+              <div class="dnd"></div>
+            </div>
+          </div>
+
+          <pre><code class="language-html">
+            &lt;div class="badge avtar"&gt;
+            &lt;img class="md" src="URL here"alt="img"/&gt;
+            &lt;div class="online"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+
+          </code></pre>
+        </div>
+        <div class="divider">
+          <div class="heading-sub">Number Badges</div>
+          <p>
+            Number Badge is used to show the no. of items present in the parent
+            component. Use class
+            <classname>Notifications</classname>
+            inside span.
+          </p>
+          <div class="text-centered">
+            <div class="badge">
+              <i class="material-icons">inbox</i>
+
+              <span class="notifications">4</span>
+            </div>
+
+            <div class="badge">
+              <i class="material-icons">mail</i>
+
+              <span class="notifications">5</span>
+            </div>
+
+            <div class="badge">
+              <i class="material-icons">message</i>
+
+              <span class="notifications">1</span>
+            </div>
+          </div>
+
+          <pre><code class="language-html">
+            &lt;div class="badge"&gt;
+            &lt;i class="material-icons"&gt;inbox&lt;/i&gt;
+            &lt;span class="notifications"&gt;4&lt;/span&gt;
+            &lt;/div&gt;
+
+          </code></pre>
+        </div>
+
+        <div class="heading-sub">Sqared Badges/tag</div>
+        <p>
+          Use class
+          <span style="background-color: var(--primary-color-light)"
+            >badge-square</span
+          >
+          to have a squared badge
+        </p>
+        <div class="text-centered"><div class="badge-square">tag</div></div>
+        <pre><code class="language-html">
+          &lt;div class="badge-square"&gt;tag&lt;/div&gt;
+        </code></pre>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+    <script src="../JavaScript/navbar.js"></script>
+  </body>
+</html>

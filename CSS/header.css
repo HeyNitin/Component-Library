@@ -1,0 +1,56 @@
+.header-logo {
+  position: absolute;
+  height: 4rem;
+  top: 1rem;
+  left: 2rem;
+}
+
+.header-topbar {
+  position: sticky;
+  top: 0rem;
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 2rem;
+  z-index: 1;
+  background-color: var(--white);
+  min-height: 6.05rem;
+  box-sizing: border-box;
+  /*Yet to decide whether to keep or not*/
+  border-bottom: 1px ridge var(--primary-color);
+}
+.header-topbar .fa {
+  text-decoration: none;
+  color: black;
+}
+
+.header-topbar a:nth-child(2) {
+  margin-left: auto;
+}
+
+.header-topbar .fa:hover {
+  color: var(--primary-color);
+}
+
+.header-topbar .fa {
+  transition: color 0.5s;
+}
+
+@media only screen and (max-width: 800px) {
+  .header-logo {
+    position: absolute;
+    height: 4rem;
+    top: 1rem;
+    left: 4rem;
+  }
+
+  .header-topbar {
+    gap: 1rem;
+    padding: 2rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header-topbar .fa {
+    display: none;
+  }
+}

@@ -1,0 +1,37 @@
+.snackbar {
+  display: flex;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0.8rem;
+  width: 400px;
+  border-radius: 5px;
+  bottom: 10px;
+  position: fixed;
+  align-items: center;
+  gap: 2rem;
+}
+
+.snackbar-basic {
+  left: 10px;
+}
+
+.snackbar-center {
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.snackbar-right {
+  right: 10px;
+}
+
+.snackbar .button:nth-child(2) {
+  margin-left: auto;
+}
+.snackbar .button:nth-child(3) {
+  font-size: x-large;
+}
+
+.snackbar .button:hover {
+  cursor: pointer;
+  color: var(--grey-color);
+}

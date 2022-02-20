@@ -1,0 +1,30 @@
+.list,
+.list-stacked {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.list li,
+.list-stacked li {
+  padding: 1rem;
+  transition: background-color 0.5s;
+}
+
+.list-stacked {
+  gap: 0;
+}
+
+.list li a:any-link,
+.list-stacked li a:any-link {
+  text-decoration: none;
+  color: var(--black);
+}
+
+/* If someone wants list to change color alternatively*/
+
+.list .alternate,
+.list-stacked .alternate {
+  background-color: var(--background-color);
+}

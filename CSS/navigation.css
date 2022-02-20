@@ -1,0 +1,27 @@
+.nav {
+  height: fit-content;
+  overflow-y: auto;
+}
+
+.nav li:hover {
+  background-color: var(--background-nav);
+}
+.nav .active {
+  background-color: var(--background-nav);
+}
+
+.nav li a:hover {
+  padding: 0.5rem;
+  color: var(--grey-color);
+  cursor: pointer;
+}
+
+.nav .heading-lg a,
+.nav .heading-md a,
+.nav .heading-sm a:hover {
+  cursor: pointer;
+}
+
+.nav .heading-sm {
+  border-bottom: var(--heading-bottom);
+}

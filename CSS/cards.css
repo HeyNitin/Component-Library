@@ -1,0 +1,150 @@
+.card {
+  display: grid;
+  background-color: var(--background-color);
+  width: 18rem;
+  justify-items: center;
+  padding: 1rem 1rem 2rem 1rem;
+  border-radius: 1rem;
+  height: 25rem;
+  margin: 3rem auto;
+}
+
+.card img {
+  height: 18rem;
+  width: 18rem;
+  border-radius: 0.3rem;
+}
+
+.card .header::first-line {
+  font-weight: bolder;
+}
+
+.card .header,
+.card .footer {
+  display: inline;
+}
+
+.card .footer {
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.card .footer > *:hover {
+  padding: 0.1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.footer p:hover {
+  background-color: var(--hover);
+}
+
+/* card basis */
+
+.card-basic .footer,
+.card-text-only .footer,
+.card-horizental,
+.footer {
+  display: flex;
+}
+
+/* basis header */
+.card-basicHeader {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-basicHeader img {
+  order: 2;
+}
+
+.card-basicHeader .footer {
+  display: inline-flex;
+  order: 3;
+}
+
+/* onimage */
+
+.card-onimage img {
+  grid-area: 1/1/2/2;
+  height: 23.3rem;
+}
+
+.card-onimage .header {
+  grid-area: 1/1/2/2;
+  align-self: flex-end;
+  width: 17rem;
+  color: var(--font-color);
+}
+
+.card-onimage .footer {
+  grid-row: 2/3;
+  display: inline-flex;
+}
+
+/* Text Only */
+
+.card-text-only {
+  position: relative;
+  height: 10rem;
+}
+
+/* for Shadow class */
+
+.card-shadow {
+  box-shadow: var(--box-shadow);
+}
+
+/* for dismiss button */
+
+.card-dismiss {
+  all: unset;
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+}
+
+.card .card-dismiss:hover {
+  background-color: var(--hover);
+  padding: 0.1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+/* Badge */
+
+.card .badge-square {
+  position: absolute;
+  left: 1rem;
+  top: 0.3rem;
+  opacity: 0.8;
+  background-color: var(--white);
+  width: 3rem;
+}
+
+/* Horizental */
+.card-horizental {
+  grid-template-columns: 1fr 1fr;
+  width: 40rem;
+  gap: 2rem;
+}
+
+.card-horizental img {
+  align-self: center;
+  height: 20rem;
+}
+
+.card-horizental .header {
+  font-weight: bolder;
+  align-self: top;
+}
+
+.card-horizental .content {
+  display: grid;
+  align-self: center;
+  height: 20rem;
+  padding: 0;
+}
+.card-horizental .content .footer {
+  align-self: end;
+}
