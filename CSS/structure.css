@@ -43,4 +43,7 @@
     width: 0px;
     background-color: var(--white);
   }
+  .grid-container .data-container {
+    position: inherit;
+  }
 }
