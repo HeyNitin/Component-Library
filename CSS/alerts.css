@@ -30,9 +30,9 @@
 pre {
   white-space: pre-wrap;
   word-wrap: break-word;
-  margin: auto;
+  margin: auto auto 2rem auto;
   max-width: 43rem;
-  padding: 3rem;
+  padding: 1rem;
 }
 
 code {
