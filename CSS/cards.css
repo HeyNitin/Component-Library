@@ -102,6 +102,8 @@
   position: absolute;
   right: 1rem;
   top: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 1.2rem;
 }
 
 .card .card-dismiss:hover {

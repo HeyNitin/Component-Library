@@ -27,7 +27,7 @@
   grid-area: 2/2/3/3;
   width: 1fr;
   overflow-y: auto;
-  height: calc(100vh - 6.05rem);
+  height: calc(100vh - 10.05rem);
 }
 
 @media only screen and (max-width: 800px) {
