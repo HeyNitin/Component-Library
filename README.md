@@ -1,7 +1,9 @@
 # Lekhni-UI 
 
 <div align="center">
+  
   [![Netlify Status](https://api.netlify.com/api/v1/badges/09b55340-2e0c-4494-af52-a150aca23e23/deploy-status)](https://app.netlify.com/sites/lekhni/deploys)
+  
 </div>
 
 
